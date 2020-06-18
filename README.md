@@ -18,13 +18,13 @@ All of this brings me to what I'm working on now, which I'm planning to make int
 
 The art style is still something of a work in progress. I still have to learn how to properly create backgrounds that create a good parallax effect. But the direction is something I'm very happy with. Moving forward, I intend to implement interactables, an inventory, and especially a script for the camera that follows the boundaries of whatever room you happen to be in. In the meantime, I'll sign off with some concept art from my path to digital artwork.
 
-![First Concept](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Bot%20Title%20Art.png)
+[First Concept](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Bot%20Title%20Art.png)
 
-![Character Model](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Flamy%20Boi.png)
+[Character Model](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Flamy%20Boi.png)
 
-![Forest](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/First%20Room.png)
+[Forest](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/First%20Room.png)
 
-![House](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Spooky%20House.png)
+[House](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Spooky%20House.png)
 
-![Boilerroom](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Boilerroom.png)
+[Boilerroom](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Boilerroom.png)
 

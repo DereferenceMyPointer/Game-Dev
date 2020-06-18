@@ -1,7 +1,7 @@
 ## Introduction and Opening Remarks
 [editor on GitHub](https://github.com/DereferenceMyPointer/Game-Dev/edit/master/README.md)
 
-Hello universe, 
+Hello universe,  
 My writing this marks the beginning of my journey through github. I'm creating this mostly for the purpose of documenting and describing my deeper journey into the world of game development, at the moment specifically with Unity3d and C#. To fire things off, I've included all of the scripts currently in use by the platformer I'm working on. Here you should find most of the assets I've developed and some light commentary on the direction of the project. From this point onward, it's to the future and far beyond.
 
 - M.G.

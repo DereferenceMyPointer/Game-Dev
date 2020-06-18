@@ -28,3 +28,4 @@ The art style is still something of a work in progress. I still have to learn ho
 
 [Boilerroom](https://github.com/DereferenceMyPointer/Game-Dev/blob/Art/Boilerroom.png)
 
+- M.G.

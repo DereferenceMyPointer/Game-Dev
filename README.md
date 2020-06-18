@@ -6,6 +6,13 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Devlog 06/18/2020: Quick Updates
+
+This log is more of an update 1.5. Today I added a running animation and a system for camera movement. It seems to me like this system for camera movement is strong and flexible. It's based on the fact that x- and y- values remain the same at any z distance and that z-values from the camera to the environment are always the same. This lets me build boundaries for the camera motion as trigger colliders on the same plane as the character and then use the x- and y- values of the collider's boundaries to clamp the camera movement based on the FOV boundaries (which are constant for each aspect ratio).
+
+To explain this in greater depth, it will be better to look at the updated camera movement and boundary scripts themselves. The goal here is to have just one active set of boundaries at a time, and I accomplish this by having the active boundary be a class variable for the camera script. Now, I want to be able to change the boundary depending on where the player moves. For this reason, the boundary prefab is broken into two components. One of them defines the camera movement space, while the other defines the hitbox for the player that switches the active boundary to the new one. Fundamentally, this is how it works. When the player enters the new boundary trigger, the active camera boundary is set to the new boundary. For the purposes of making faster transitions and preventing camera lag during falling transitions, I also added a separate follow speed for transitions that can snap the camera to the player more quickly when crossing into a new area. 
+
+Closing thoughts: I might add a blackout effect to transitions so I won't have to stitch areas together as much when constructing the final layout. I also changed the player health to a scriptable object, which should mean the values it stores remain constant across a playthrough regardless of whether or not the application stops running. This tells me I should probably use a single scriptable object to track health as well as all progression, so that any script I write that wants to access progression info can access any of it if necessary.
 
 ### Devlog 06/17/2020: Introduction
 [Video Log](https://www.youtube.com/watch?v=ti4bAH1zd3Q)  

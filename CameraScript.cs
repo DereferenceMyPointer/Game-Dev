@@ -22,6 +22,7 @@ public class CameraScript : MonoBehaviour
         {
             case 17:
                 cameraBox.size = new Vector2(25.47f, 14.3f);
+                //cameraBox.size = new Vector2(29f, 10f); persp
                 break;
         }
     }

@@ -1,13 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro.Examples;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Progression")]
+    public ScriptableHealth status;
+    public PlayerDash dash;
+
     [Header("Horizontal Movement")]
     public float moveSpeed;
     public Vector2 direction;
     public float turnTime;
+    public float dashSpeed;
 
     [Header("Jumping")]
     public float jumpSpeed;
@@ -35,6 +41,9 @@ public class PlayerMovement : MonoBehaviour
     private float attack;
     private float sinceAttack;
     private bool canAttack;
+    public float dashCooldown;
+    private int canDash;
+    private float sinceDash;
 
     [Header("Components")]
     public Rigidbody2D rb;
@@ -59,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
         aPlayer = GetComponent<AudioSource>();
         attackCooldowns = new Dictionary<Combo, float>();
         attackCooldowns.Add(Combo.LIGHT_ATTACK, attack);
+
     }
 
 
@@ -81,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("jumpUp", false);
             animator.SetBool("jumpDown", false);
+            canDash = status.dashesPerJump;
         }
         else if (!animator.GetBool("jumpUp"))
         {
@@ -95,11 +106,26 @@ public class PlayerMovement : MonoBehaviour
         MoveCharacter(direction.x);
 
         HandleAttacks();
+        HandleDash();
     }
 
     private void FixedUpdate()
     {
         
+    }
+
+    void HandleDash()
+    {
+        if (sinceDash > 0)
+        {
+            sinceDash -= Time.deltaTime;
+        }
+        if (Input.GetButtonDown("Fire2") && !isAttacking && status.canDash && sinceDash <= 0)
+        {
+            dash.Dash(animator, dashSpeed * Mathf.Round(movementDirection), rb, this);
+            sinceDash = dashCooldown;
+            canDash--;
+        }
     }
 
     void Jump()

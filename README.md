@@ -6,6 +6,16 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Devlog 06/22/2020: Progression, Dash, and Dialogue
+
+In retrospect, I should probably have made an update earlier. There have almost been too many updates to succinctly communicate what I've changed in the last few days. Owing to this, I'll briefly outline what the game looks like now.
+
+First and foremost, I fully implemented the progression system. This is done with a scriptable object, the same one that stores the player's health. This way the current state of the player will be tied to progression for the duration of a playthrough. It stores the maximum player health, the remaining player health, and the maximum possible player health. It also stores any progression point as a boolean. For example, unlocking the dash ability is done by changing the canDash variable to true. NPCs with dialogue will also have multiple stages of dialogue that can be tied to booleans in the player progression. This allows me to have NPCs give the player certain items or abilities after they've been spoken to under certain conditions. I added a singleton class that will be used by any objects to make changes to the player progression rather than attaching the player script to all of them to keep it slightly more protected.
+
+Secondly, I added NPC dialogue. This has two components: firstly, an interactable class. This class is abstract and defines only an Interact() method. This way, I can have a player interact class that can Interact() with whatever component the object it's interacting with has that extends interactable. This does more than allow for dialogue, but currently that's all I'm using it for. The dialogue itself is broken into a single dialogue manager and Dialogue components that npcs with dialogue store in their interactable. The dialogue manager animates the dialogue window and has a public method that accepts dialogue as a parameter and displays the dialogue. I call this method in the NPC's interact script, so that when the player interact()s with the npc it will display the dialogue.
+
+Finally, I added the ability to dash. The dash ability is pretty much the same as what you would find in something like Hollow Knight or Celeste. I find this is very important for progression because it can give you the ability to access new places. Along that vein, I added a counter for the number of dashes allowed between each jump as a way to let the player explore further with additional progression. It also just makes gameplay that much more fun and fluid. I added what is likely to be a temporary animation for the dash and made its utility dependent on the player progression item. I also added some more art assets and have begun working on backgrounds, which I plan to add parallax to with a script in orthographic mode. I also plan on expanding the camera boundary system by disabling all components of locations the player isn't in to increase efficieny and prevent background overlap.
+
 ### Devlog 06/18/2020: Quick Updates
 
 [Video Log](https://www.youtube.com/watch?v=Jw66lYGFbW0)

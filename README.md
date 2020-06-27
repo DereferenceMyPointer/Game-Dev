@@ -6,6 +6,18 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Devlog 06/27/2020: Bonfires, Implementations, and an Introductory Boss
+
+With the beginning of summer classes, my ability to make large amounts of progress within a few days has greatly diminished. However, I'm still working on games and other projects, so expect a few updates here and there whenever something important happens.
+
+Probably the most impactful change I've made since the last update was streamlining the process for developing background art. I went back to the storyboard and expanded on what the location you start in actually means. Rooms in an area need to have a unifying theme and feeling, and there need to be a lot of them in order to get the point across that it's actually a location. So in order to facilitate this, I've started making reusable art assets, like boilers and brick walls for the boilerroom area, as well as trying to think more about color palette (although coloring is generally very difficult due to my moderate colorblindness). To this end, I've already added one more room and have several in the works. Expect a mostly complete redesign of the starting area within the next few weeks.
+
+As far as mechanics that I've added, I created bonfires that the player can light which restore health and set a respawn point. I have also added a death screen animation for when you do die. In order to test this, I made a very simple boss fight. The player now has several immunity frames after taking damage, which allows for damage zones to use on OnTriggerStay script, which is less buggy. I also implemented editing the scriptable object with events; now the player will receive an additional health after talking to the NPC, and will receive a temporary version of the wall jump ability (text will pop up to notify you of this).
+
+So, while I won't be able to work on this as much starting now, the steps I have left to take will really start making the game look more like its final form. As always, thanks for reading.
+
+ - M.G.
+
 ### Devlog 06/22/2020: Progression, Dash, and Dialogue
 
 In retrospect, I should probably have made an update earlier. There have almost been too many updates to succinctly communicate what I've changed in the last few days. Owing to this, I'll briefly outline what the game looks like now.

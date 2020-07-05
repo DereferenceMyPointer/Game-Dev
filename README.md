@@ -7,6 +7,7 @@ My writing this marks the beginning of my journey through github. I'm creating t
 - M.G.
 
 ### Devlog 06/27/2020: Bonfires, Implementations, and an Introductory Boss
+[Video Log](https://www.youtube.com/watch?v=GzM2fIiPWGw) (finally)
 
 With the beginning of summer classes, my ability to make large amounts of progress within a few days has greatly diminished. However, I'm still working on games and other projects, so expect a few updates here and there whenever something important happens.
 

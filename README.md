@@ -6,6 +6,11 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Update 7/10 - 7/20/2020: Game Jam!
+[Game Page](https://dereferencemypointer.itch.io/temple-gun)
+
+These last two weeks have been unbelievably busy for me. Last week, I worked with a friend on a game for the the largest annual game jam currently being held, the GMTK game jam. This required me two clear out two days worth of work ahead of time and squeeze in doing an entire project for one class on Sunday. But regardless of the additional work I've put on myself, we finished a game. I did most of the programming and my friend did most of the art and animation, although I made the skull spiders and the tileset for the ice biome. It was a very intense two days, and waiting for ratings to come in was also exciting. Overall, I'm very satisfied with what we made, especially considering we finished it fifteen hours before the deadline.
+
 ### Devlog 06/27/2020: Bonfires, Implementations, and an Introductory Boss
 [Video Log](https://www.youtube.com/watch?v=GzM2fIiPWGw) (finally)
 

@@ -6,6 +6,20 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Update 10/24: Scribblesong, Repository Update, School
+
+It's been three whole months since I last updated this page, but I stress that this doesn't mean I haven't been working. Just two months ago I was accepted into the aerospace engineering major at the UW and since then have decided I'll focus on finishing that and getting a physics minor for the next few years. Although I expect this to be a pretty significant commitment, I still expect to find time to work on games. I already have, actually, considering that the GMTK jam took place while I was enrolled in summer quarter.
+
+Without further ado, here's the new stuff.
+
+I added all of the assets used in Temple Gun to a new repository you can find [here](https://github.com/DereferenceMyPointer/Temple-Gun)
+
+I started several new projects, each mostly just to test and prototype ideas. Most recently I've been doing some reading about OOP principles and game architecture, as well as learning C++. I understand much more about how to effectively architect object oriented programs now, especially in unity, and have started applying this to some basic finite state machines (think AI, player states; driving vehicles, fly mode) and generic RPG systems (think spells and inventories). My project prototyping this will likely be showcased in an upcoming log, since I only started it yesterday, but so far I have both a spell and an inventory system that do not use singletons. The player controller is also defined through an FSM, and I've used a LOT of interfaces already. For example, my player inventory extends monobehavior and implements two different interfaces. This is a pretty significant improvement before, where interfaces hadn't even progressed beyond my java vocabulary yet. The purpose of this is encapsulating every feature as much as possible while also allowing for as much flexibility in adding features as possible. I'm sure there's even more to learn and to do better, but I am very happy with this start.
+
+Now for the mysterious project I updated my main GitHub with: Scribblesong. This one's more of a joke project. The idea comes from Team Cherry's in-development game, Silksong, which was announced forever ago and had a gameplay demo more than a year and a half ago at Nintendo. It's in the same universe as Hollow Knight (Team Cherry's other game), which is probably my favorite game I've ever played, and you're playing as a character that acted both as a boss and as an ally in different parts of the game. But enough drooling over Team Cherry's creations. Scribblesong is a knockoff of Silksong being made entirely in MS Paint style. The plan is to have a playable version of Scribblesong release before Silksong itself, both because that's hilarious and so that people waiting for Silksong have something to do.
+
+I've added all the assets for Scribblesong so far [here](https://github.com/DereferenceMyPointer/ScribbleSong)
+
 ### Update 7/10 - 7/20/2020: Game Jam!
 [Game Page](https://dereferencemypointer.itch.io/temple-gun)
 

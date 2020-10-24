@@ -22,6 +22,8 @@ I've added all the assets for Scribblesong so far [here](https://github.com/Dere
 
 As for my last project, the one with the little flame guy, I'm putting that one on pause until I feel like I have both the artistic and software development skills necessary for it to really come out well. I actually think I'm starting to get close already, with Scribblesong and my most recent side project, and I'm using Scribblesong as a metric for how well I can animate and code this type of game in a vacuum. And so, onward!
 
+![Scribblesong demo](https://github.com/DereferenceMyPointer/ScribbleSong/blob/master/Scribblesong.mp4)
+
 ### Update 7/10 - 7/20/2020: Game Jam!
 [Game Page](https://dereferencemypointer.itch.io/temple-gun)
 

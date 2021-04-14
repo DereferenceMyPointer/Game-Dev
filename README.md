@@ -5,6 +5,10 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Update o4/14/2021: Devlog?
+
+I added a small demo and devlog video to my channel [here](https://www.youtube.com/watch?v=3Q34iJMGs-o)!
+
 ### Update 04/13/2021: Terminal and Realistic Scope
 
 Remember how in the last update I said I was learning javascript? Well, in this update, I will say that I also started learning python. And no, I'm not just going crazy for programming languages. While I clearly like jumping around projects and starting new things a lot, there is actually a reason for this. Python is the main language used in the game Terminal by Correlation One.

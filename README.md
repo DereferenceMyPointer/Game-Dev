@@ -5,6 +5,24 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Update 04/13/2021: Terminal and Realistic Scope
+
+Remember how in the last update I said I was learning javascript? Well, in this update, I will say that I also started learning python. And no, I'm not just going crazy for programming languages. While I clearly like jumping around projects and starting new things a lot, there is actually a reason for this. Python is the main language used in the game Terminal by Correlation One.
+
+Terminal is a very simple and superficially uninteresting game. The catch is, you program a bot that plays the game automatically, and then it plays against bots other people made. There is a whole ELO system behind it, and every once in a while there are tournaments with prize support. I started making bots in python in order to learn python, but my bots eventually started doing well. Really well, actually, reaching as high as tenth in the world out of more than 30,000 teams. In an extraordinary circumstance, it so happened that the west coast regional competition was also starting.
+
+I applied to the west coast regional competition, and eventually my teammate and I both got in. This was a pretty important first step, as participants both needed a team of two or more and there were hundreds of applicants and only one hundred competitors. The top 12 each won $1,000, and while my bot ultimately landed in 19th place (out of 60), we spent the first three days of the competition at first place on the leaderboard. We unfortunately couldn't maintain this lead because the competition ended on Sunday and we had a very busy weekend.
+
+Following this reasonable performance, we received invitations to the global championship. The global championship is a school-by-school invitation only event, where the best team from each school eventually competes for $50,000 in prizes. Starting tomorrow as of this update, the programming for the first stage of the event begins. My hopes are not incredibly high for winning this one, partially because I have a midterm on Friday and partially because I have other things I want to work on, but I'm very glad I've had the opportunity to participate in these exclusive events.
+
+To update on the things I mentioned earlier: I wrote my three.js game engine up to having a component and animation system, and then left it there. I don't have the assets to make a full 3d game at the time, and the scope of a full 3d game is very large, especially when I have to build my engine custom to the way I want the game to be able to work. Long story short, I won't be using the game engine any time soon. Colleggt has a stage, a boss, mechanics, and health bars, which is enough for the project it is part of.
+
+The game I'm working on right now is a part of the Colleggt parent project, the idea of which is to have several small, complete games that are all accessible from the same project. Currently, it doesn't have a name, other than the starting location ("Grisvale"). What it does have is a pixel-art oriented interface and design, a full tilemap with decorative assets, and several new systems I am very happy with. Firstly, I made an NPC dialogue system. I used scriptable objects to make easily editable dialogue trees (using my own implementation of the actual data structure) and I built a dialogue manager that allows the player to make dialogue choices for each NPC that progress where they are in the dialogue tree. I also effectively made a very easy to use player state system that uses some new data structures and hierarchies well. Currently, I have a stamina and parry-based combat system mostly complete on top of working NPC dialogue and events. I'm very excited to demo this, and I intend to upload a lot of the code and assets soon.
+
+Every step I take gets me closer to being able to architect and code legitimately large and interesting games quickly. I believe Grisvale is a huge stride in the right direction; my implementations are getting leaner and my use of encapsulation, data structures, and algorithms is getting more accurate. I'm also finding some ways to get assets created more quickly, especially art. Like I said, I hope to have a demo going shortly. Hopefully, I'll remember to update this.
+
+ - M.G
+
 ### Update 03/13/2021: New Languages, New Focuses, Broadened Horizons
 
 In the interest of transparency, I will say that the main reason I haven't updated this blog since October is that I thought I had toward the end of December. Since I actually haven't, I'll say a little bit about all of the random things I've done, starting with the most recent because I remember those best.

@@ -5,6 +5,12 @@ My writing this marks the beginning of my journey through github. I'm creating t
 
 - M.G.
 
+### Brief comments 01/13/2022
+
+This webpage is getting much longer than I had anticipated and the scope of my projects has spiraled out of the purview of this blog. I am most likely
+going to restructure my website/blog to either make a new blog page or just to include project updates with my github releases. If I commit to a long term
+project, I may make a blog for that. For now, I will just keep doing what I'm doing.
+
 ### Update o4/14/2021: Devlog?
 
 I added a small demo and devlog video to my channel [here](https://www.youtube.com/watch?v=3Q34iJMGs-o)!
